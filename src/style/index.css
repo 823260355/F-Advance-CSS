@@ -150,8 +150,17 @@ img {
 }
 
 .footer {
-  border: 1px solid black;
+  background-color: gainsboro;
   height: 50px;
+  font-size: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer a {
+  color: rgb(163, 2, 163);
 }
 
 * {
