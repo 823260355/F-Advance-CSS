@@ -29,7 +29,7 @@ body {
   margin-top: 20px;
   margin-left: 50px;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .left-aside {
@@ -53,17 +53,17 @@ body {
 }
 
 .articles {
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }
 
 .left-article {
-  width: 50%;
+  width: 60%;
 }
 
 .right-article {
-  width: 50%;
+  width: 60%;
 }
 
 img {
@@ -80,8 +80,8 @@ img {
   padding-bottom: 10px;
 }
 
-.artic1e1 figcaption a{
-   color: blue;
+.artic1e1 figcaption a {
+  color: blue;
 }
 
 .artic1e2 {
@@ -94,7 +94,7 @@ img {
   padding-bottom: 10px;
 }
 
-.artic1e2 figcaption a{
+.artic1e2 figcaption a {
   color: blue;
 }
 
@@ -108,8 +108,45 @@ img {
   padding-bottom: 10px;
 }
 
-.artic1e3 figcaption a{
+.artic1e3 figcaption a {
   color: blue;
+}
+
+.right-aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.sign-from {
+  border-radius: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(223, 219, 219);
+  padding: 10px;
+}
+
+.check {
+  padding: 15px;
+}
+
+.email {
+  height: 30px;
+}
+
+.pwd {
+  height: 30px;
+}
+
+.sign-btn {
+  color: white;
+  background-color: #0066ff;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 5%;
 }
 
 .footer {
