@@ -9,6 +9,21 @@ body {
   font-size: 16px;
 }
 
+.header {
+  border: 1px solid black;
+  height: 35px;
+}
+
+.main {
+  border: 1px solid black;
+  height: 500px;
+}
+
+.footer {
+  border: 1px solid black;
+  height: 50px;
+}
+
 * {
   box-sizing: border-box;
 }
