@@ -12,6 +12,16 @@ body {
 .header {
   border: 1px solid black;
   height: 35px;
+  background-color: black;
+}
+
+.header-navigation-bar {
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 6px;
 }
 
 .main {
